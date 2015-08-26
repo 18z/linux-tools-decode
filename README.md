@@ -6,3 +6,4 @@
 
 * [準備作業](requirements.md)
 * [用 printf 模擬 wc 執行後顯示在 terminal 上的結果](wc/wc_printf.md)
+* [標頭檔](wc/wc_header.md)
