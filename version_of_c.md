@@ -38,5 +38,5 @@ gnu11 = C11 + GNU extensions。
 
 ### 參考來源：
 * [GCC 官方文件](https://gcc.gnu.org/onlinedocs/gcc/Standards.html)
-
+* [C11 spec](http://www.open-std.org/jtc1/sc22/wg14/www/standards)
 
