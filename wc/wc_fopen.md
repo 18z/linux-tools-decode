@@ -1,6 +1,6 @@
-### 一步一步建構 linux wc 指令
+## 一步一步建構 linux wc 指令
 
-#### 目標：一次只加入一個觀念，逐漸將 linux 中的 wc 撰寫完成。
+### 目標：一次只加入一個觀念，逐漸將 linux 中的 wc 撰寫完成。
 
 ```c
 #include <stdio.h>
@@ -31,14 +31,14 @@ int main(){
         if (c == ' ' || c == '\n' || c == '\t')
             state = OUT;
         else if (state == OUT){
-            state = IN; 
+            state = IN;
             ++nw;
-        }   
-    }   
+        }
+    }
 
     /* file stream closed*/
     fclose (fp);
-    
+
     /* print the results of calculation */
     printf("line:\t%d\nword:\t%d\nchar:\t%d\n", nl, nw, nc);
 }
