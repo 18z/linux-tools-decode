@@ -5,7 +5,8 @@
 ### wc - 計算檔案字數、字元數、行數之工具
 
 * [準備作業](requirements.md)
-* [C 語言版本](version_of_c.md)
+* [C 語言標準](version_of_c.md)
+* [Glibc與標準不同之影響](effects_of_glibc_c_standards.md)
 * [第一個程式](wc/wc_printf.md)
 * [標頭檔](wc/wc_header.md)
 * [註解](wc/wc_comment.md)
