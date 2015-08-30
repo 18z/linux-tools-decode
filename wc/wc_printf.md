@@ -8,7 +8,7 @@ wc 是用來計算檔案行數、字元數與字數的工具。在此階段我�
 
 /* print wc results */
 
-void main()
+int main()
 {
     int nl, nc, nw;
     nl = nc = nw = 2;
@@ -19,7 +19,7 @@ void main()
 
 ### 編譯程式
 ```
-$ gcc wc_printf.c -o wc_printf 
+$ gcc wc_printf.c -o wc_printf
 ```
 
 ### 執行程式
@@ -29,7 +29,7 @@ $ ./wc_printf
 
 ### 執行結果
 ```
-$ ./wc_printf 
+$ ./wc_printf
 number of line: 2
 number of char: 2
 number of word: 2
