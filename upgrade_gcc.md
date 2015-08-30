@@ -49,3 +49,8 @@ Copyright (C) 2015 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
+
+### 參考文獻
+
+* [GCC 5.1.0](https://gcc.gnu.org/onlinedocs/gcc-5.1.0/gcc/Standards.html#Standards)
+* [GCC 4.8.4](https://gcc.gnu.org/onlinedocs/gcc-4.8.4/gcc/Standards.html#Standards)
