@@ -67,7 +67,7 @@ $ hello mary john
 而 argv[] 則如下圖所示：
 ```
 
-![argv.png](../argv.png)
+![argv.png](../png/argv.png)
 
 — The parameters argc and argv and the strings pointed to by the argv array shall be modifiable by the program, and retain their last-stored values between program startup and program termination.
 
