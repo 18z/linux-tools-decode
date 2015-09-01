@@ -7,7 +7,7 @@
 * [準備作業](requirements.md)
 * [升級 GCC 版本](upgrade_gcc.md)
 * [C 語言標準](version_of_c.md)
-* [Glibc與標準不同之影響](effects_of_glibc_c_standards.md)
+* [Glibc與標準不同之影響](effects_of_versions.md)
 * [第一個程式](wc/wc_printf.md)
 * [標頭檔](wc/wc_header.md)
 * [註解](wc/wc_comment.md)
