@@ -11,3 +11,4 @@
 * [第一個程式](wc/wc_printf.md)
 * [標頭檔](wc/wc_header.md)
 * [註解](wc/wc_comment.md)
+* [程式起始點](wc/wc_main.md)
