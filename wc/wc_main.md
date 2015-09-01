@@ -13,7 +13,7 @@ int main(void) { /* ... */ }
 
 或
 
-```
+```c
 /* 回傳值為 int 且有兩個參數 (argc, argv) 傳入 */
 int main(int argc, char *argv[]) { /* ... */ }
 ```
@@ -34,7 +34,7 @@ argc 之值不可為負數。
 argv[argc] 須為 null 指標。
 ```
 
-— If the value of argc is greater than zero, the array members argv[0] through argv[argc-1] inclusive shall contain pointers to strings, which are given implementation-defined values by the host environment prior to program startup. 
+— If the value of argc is greater than zero, the array members argv[0] through argv[argc-1] inclusive shall contain pointers to strings, which are given implementation-defined values by the host environment prior to program startup.
 
 The intent is to supply to the program information determined prior to program startup from elsewhere in the hosted environment. If the host environment is not capable of supplying strings with letters in both uppercase and lowercase, the implementation shall ensure that the strings are received in lowercase.
 
@@ -55,7 +55,7 @@ The intent is to supply to the program information determined prior to program s
 則 argv[0][0] 之值為 null。
 
 若 argc 數值大於一，則 argv[1] 至 argv[argc-1] 陣列
-所指向的就是 program parameters。 
+所指向的就是 program parameters。
 ```
 
 — The parameters argc and argv and the strings pointed to by the argv array shall be modifiable by the program, and retain their last-stored values between program startup and program termination.
