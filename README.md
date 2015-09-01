@@ -12,3 +12,4 @@
 * [標頭檔](wc/wc_header.md)
 * [註解](wc/wc_comment.md)
 * [程式起始點](wc/wc_main.md)
+* [程式終點](wc/wc_terminate.md)
