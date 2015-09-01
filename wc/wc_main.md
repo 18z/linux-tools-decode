@@ -56,7 +56,18 @@ The intent is to supply to the program information determined prior to program s
 
 若 argc 數值大於一，則 argv[1] 至 argv[argc-1] 陣列
 所指向的就是 program parameters。
+
+例如：
+有一程式名為 hello，執行該程式時可傳入兩參數。
+則可在 CLI 介面輸入
+
+$ hello mary john
+
+而此時，程式內 argc 之值為 3 (hello + mary + john 三個 string)
+而 argv[] 則如下圖所示：
 ```
+
+![argv.png](../argv.png)
 
 — The parameters argc and argv and the strings pointed to by the argv array shall be modifiable by the program, and retain their last-stored values between program startup and program termination.
 
