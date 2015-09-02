@@ -57,6 +57,15 @@ Written by Roland McGrath and Ulrich Drepper.
 # Ubuntu-14.04.3-LTS 內建 VIM 編輯器
 # 新建立與編輯檔名為 documents 的 c 語言檔案
 $ vim documents.c
+
+# 推薦 vim  plugin
+1. tComment : 幫助開發者快速註解或取消註解。
+2. snipMate : 許多 C 語言snippets 可使用，加快開發速度。
+              例如：打main 按 tab 鍵，即可幫開發者輸入整個 main function。
+3. tagbar   : 協助使用者 trace code。
+
+vim plugin 設定請參閱
+https://github.com/deanboole/Provision/blob/master/vim/vimrc
 ```
 
 ### 套件需求：build-essential
