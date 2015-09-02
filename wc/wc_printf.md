@@ -8,7 +8,7 @@ wc 是用來計算檔案行數、字元數與字數的工具。在此階段我�
 
 /* print wc results */
 
-int main()
+int main(void)
 {
     int nl, nc, nw;
     nl = nc = nw = 2;
