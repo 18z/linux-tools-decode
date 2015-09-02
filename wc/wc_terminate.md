@@ -25,4 +25,8 @@ the termination status returned to the host environment is unspecified.
 
 則回傳給 host environment 的值便是 unspecified。
 
+另，若最後回傳的值為 0 ，則表示程式執行成功。若回傳的值為非 0 之其他數值，
+則表示執行過程中，發生錯誤。
+
+
 * [C11標準文件](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
