@@ -12,3 +12,4 @@
 * [程式起始點](wc/wc_main.md)
 * [變數宣告與列印](wc/wc_declare.md)
 * [程式終點](wc/wc_terminate.md)
+* [第二個程式](wc/wc_getchar.md)
