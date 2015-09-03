@@ -16,4 +16,4 @@
     * [define](wc/wc_define.md)
     * [while 迴圈](wc/wc_while.md)
     * [從鍵盤讀取字元](wc/wc_getchar_func.md)
-    * if-else (counting logic)
+    * [if-else 判斷式及計算邏輯](wc/wc_if.md)
