@@ -15,5 +15,5 @@
 * [第二個程式 - getchar](wc/wc_getchar.md)
     * [define](wc/wc_define.md)
     * [while 迴圈](wc/wc_while.md)
-    * getchar
+    * [從鍵盤讀取字元](wc/wc_getchar_func.md)
     * if-else (counting logic)
