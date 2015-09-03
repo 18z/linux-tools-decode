@@ -38,6 +38,8 @@ int main(int argc, char **argv)
 
     fclose (fp);
     printf("line:\t%d\nword:\t%d\nchar:\t%d\n", nl, nw, nc);
+
+    return 0;
 }
 ```
 

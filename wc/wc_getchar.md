@@ -22,7 +22,10 @@ int main(){
         else if (state == OUT) {
             state = IN;
             ++nw;
+        }
     }
+
+    printf("%d %d %d\n", nl, nw, nc);
+    return 0;
 }
-printf("%d %d %d\n", nl, nw, nc); }
 ```

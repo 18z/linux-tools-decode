@@ -14,6 +14,7 @@ int main(void)
     nl = nc = nw = 2;
 
     printf("number of line: %d\nnumber of char: %d\nnumber of word: %d\n", nl, nc, nw);
+    return 0;
 }
 ```
 
