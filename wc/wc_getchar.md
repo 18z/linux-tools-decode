@@ -17,7 +17,7 @@ int main(){
         if (c == '\n')
             ++nl;
 
-        if (c == ' ' || c == '\n' || c = '\t')
+        if (c == ' ' || c == '\n' || c == '\t')
             state = OUT;
         else if (state == OUT) {
             state = IN;
@@ -25,7 +25,7 @@ int main(){
         }
     }
 
-    printf("%d %d %d\n", nl, nw, nc);
+    printf("number of line: %d\nnumber of char: %d\nnumber of word: %d\n", nl, nc, nw);
     return 0;
 }
 ```
