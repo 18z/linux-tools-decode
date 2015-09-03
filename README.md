@@ -1,6 +1,4 @@
-## Linux-tools-built-step-by-step
-
-### 一次一小步
+## Linux-tools 實作
 
 ### wc - 計算檔案字數、字元數、行數之工具
 
