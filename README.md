@@ -14,6 +14,6 @@
     * [程式終點](wc/wc_terminate.md)
 * [第二個程式 - getchar](wc/wc_getchar.md)
     * [define](wc/wc_define.md)
-    * while loop
+    * [while 迴圈](wc/wc_while.md)
     * getchar
     * if-else (counting logic)
