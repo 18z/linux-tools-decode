@@ -13,3 +13,7 @@
     * [變數宣告與列印](wc/wc_declare.md)
     * [程式終點](wc/wc_terminate.md)
 * [第二個程式 - getchar](wc/wc_getchar.md)
+    * define
+    * while loop
+    * getchar
+    * if-else (counting logic)
