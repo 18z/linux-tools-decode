@@ -66,6 +66,9 @@ $ vim documents.c
 
 vim plugin 設定請參閱
 https://github.com/deanboole/Provision/blob/master/vim/vimrc
+
+# 推薦編輯排版套件：indent
+自動排版 C 語言程式
 ```
 
 ### 套件需求：build-essential
