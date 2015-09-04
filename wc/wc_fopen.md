@@ -1,7 +1,6 @@
-## 一步一步建構 linux wc 指令
+## 加入 fopen 函式，讀檔
 
-### 目標：一次只加入一個觀念，逐漸將 linux 中的 wc 撰寫完成。
-
+### 程式內容
 ```c
 #include <stdio.h>
 
@@ -40,8 +39,33 @@ int main(void){
     fclose (fp);
 
     /* print the results of calculation */
-    printf("line:\t%d\nword:\t%d\nchar:\t%d\n", nl, nw, nc);
+    printf("number of line: %d\nnumber of char: %d\nnumber of word: %d\n", nl, nc, nw);
 
     return 0;
 }
 ```
+
+### 測試檔案內容
+```
+1
+2
+3
+5
+
+this is a test
+```
+
+### 編譯程式
+```bash
+$ gcc wc_fopen.c -o wc_fopen.o
+```
+
+### 執行結果
+```
+$ ./wc_fopen.o
+number of line: 6
+number of char: 24
+number of word: 8
+```
+
+
