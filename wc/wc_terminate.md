@@ -26,7 +26,7 @@ the termination status returned to the host environment is unspecified.
 則回傳給 host environment 的值便是 unspecified。
 
 另，若最後回傳的值為 0 ，則表示程式執行成功。若回傳的值為非 0 之其他數值，
-則表示執行過程中，發生錯誤。
+則表示執行過程中，發生錯誤或異常。
 
 ```
 int main(void)
@@ -36,13 +36,19 @@ int main(void)
 }
 ```
 
-如上 main function 最後，要加上 return 0;
+此外，main function 最後，要加上 `return 0;`，用意在於提醒我們，
+程式須回傳它的執行狀態給 host environment。
+
 若未加上，雖`printf("hello, world\n");`可順利執行，但host environment
-接收到的值會是 12。若在最後加上`return 0;`，則host environment會接收0。
-如此才與標準書相應。
+接收到的值會是 13，此回傳數值是無意義的。
+
+若在最後加上`return 0;`，則 host environment 會接收0。
+表示程式順利執行完畢。
 
 host environment 接收到的值又稱 exit status。
 不同數值有不同意義，詳請[參閱](http://tldp.org/LDP/abs/html/exitcodes.html)
+
+註：`return;` 與完全沒有 `return;`，回傳值皆是 13。此回傳數值是無意義的。
 
 ### 參考文獻
 * [C11標準文件](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
