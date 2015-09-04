@@ -69,6 +69,9 @@ https://github.com/deanboole/Provision/blob/master/vim/vimrc
 
 # 推薦編輯排版套件：indent
 自動排版 C 語言程式
+
+# GNU coding style
+http://www.gnu.org/prep/standards/standards.html
 ```
 
 ### 套件需求：build-essential
