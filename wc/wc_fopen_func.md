@@ -46,7 +46,7 @@ ID or handle or a combination of several IDs
 and not necessarily a real memory address.
 
 This ID could be anything, even a fixed-size text string.
-Non-address representations may be especially useful 
+Non-address representations may be especially useful
 for a C interpreter.
 ```
 
@@ -54,7 +54,7 @@ for a C interpreter.
 ID 有可能是任何東西，甚至有可能是 string。
 handle 不曉得是什麼，待查證。
 
-## 參考文獻
+### 參考文獻
 * [stack overflow](http://stackoverflow.com/questions/15151377/what-exactly-is-a-c-pointer-if-not-a-memory-address)
 
 * [C 程式設計 - 檔案處理](https://github.com/deanboole/linux-tools-remake/blob/master/ref/C_8.ppt)
