@@ -54,6 +54,27 @@ for a C interpreter.
 ID 有可能是任何東西，甚至有可能是 string。
 handle 不曉得是什麼，待查證。
 
+### 實驗：fopen 參數為 char
+```c
+#include <stdio.h>
+
+void jack(char *mode){
+    if(mode == "r")
+        printf("yes, pointer value can be a char.\n");
+    return;
+}
+
+int main(void)
+{
+    jack("r");
+    return 0;
+}
+```
+
+### 實驗結果
+terminal 確實印出 `yes, pointer value can be a char.`
+這也表示，fopen 接收到的 mode 參數有可能是運用類似的設計來處理。
+
 ### 參考文獻
 * [stack overflow](http://stackoverflow.com/questions/15151377/what-exactly-is-a-c-pointer-if-not-a-memory-address)
 
