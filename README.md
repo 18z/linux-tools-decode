@@ -17,3 +17,4 @@
     * [while 迴圈](wc/wc_while.md)
     * [從鍵盤讀取字元](wc/wc_getchar_func.md)
     * [if-else 判斷式及計算邏輯](wc/wc_if.md)
+* [第三個程式 - fopen](wc/wc_fopen.md)
