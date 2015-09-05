@@ -25,3 +25,4 @@
 * [第五個程式 - function](wc/wc_func.md)
     * [函式細講](wc/wc_func_def.md)
 * [第六個程式 - usage & error msg](wc/wc_usage_error_msg.md)
+    * [不定參數](wc/wc_Variadic_Functions.md)
