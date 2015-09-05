@@ -62,7 +62,7 @@ $ vim documents.c
 1. tComment : 幫助開發者快速註解或取消註解。
 2. snipMate : 許多 C 語言snippets 可使用，加快開發速度。
               例如：打main 按 tab 鍵，即可幫開發者輸入整個 main function。
-3. tagbar   : 協助使用者 trace code。
+3. tagbar   : 協助使用者 trace code。搭配 Exuberant CTAGS 使用。
 
 vim plugin 設定請參閱
 https://github.com/deanboole/Provision/blob/master/vim/vimrc
