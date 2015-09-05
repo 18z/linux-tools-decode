@@ -22,4 +22,5 @@
     * [getc 函式](wc/wc_getc.md)
 * [第四個程式 - argc argv](wc/wc_argv.md)
     * [argc 與 argv](wc/wc_argv_func.md)
+* [第五個程式 - function](wc/wc_func.md)
 * [第五個程式 - usage & error msg](wc/wc_usage_error_msg.md)
