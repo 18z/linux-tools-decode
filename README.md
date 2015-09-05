@@ -20,3 +20,5 @@
 * [第三個程式 - fopen](wc/wc_fopen.md)
     * [fopen 函式細講](wc/wc_fopen_func.md)
     * [getc 函式](wc/wc_getc.md)
+* [第四個程式 - argc argv](wc/wc_argv.md)
+    * [argc 與 argv](wc/wc_argv_func.md)
