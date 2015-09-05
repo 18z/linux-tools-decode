@@ -32,21 +32,16 @@ static void errf (char *fmt, ...)
     va_end (ap);
 }
 
-int main(int argc, char **argv)
+void counter(char *file)
 {
     int c, nl, nw, nc, state;
-
     state = OUT;
     nl = nw = nc = 0;
 
-    if (argc < 2)
-            errf ("usage: wc FILE");
-
-    FILE *fp = fopen(argv[1], "r");
+    FILE *fp = fopen(file, "r");
 
     if (!fp)
-        printf("cannot open file %s", argv[1]);
-
+        printf("cannot open file %s", file);
 
     while ((c = getc (fp)) != EOF) {
         ++nc;
@@ -61,8 +56,19 @@ int main(int argc, char **argv)
     }
 
     fclose (fp);
-    printf("number of line: %d\nnumber of char: %d\nnumber of word: %d\n", nl, nc, nw);
 
+    printf("number of line: %d\n"
+           "number of char: %d\n"
+           "number of word: %d\n",
+           nl, nc, nw);
+}
+
+int main(int argc, char **argv)
+{
+    if (argc < 2)
+        errf ("usage: wc FILE");
+
+    counter(argv[1]);
     return 0;
 }
 ```
