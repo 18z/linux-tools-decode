@@ -89,6 +89,6 @@ number of line: 6
 number of char: 24
 number of word: 8
 
-$ ./wc_usage_error_msg.o test
+$ ./wc_usage_error_msg.o
 usage: wc FILE
 ```
