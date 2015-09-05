@@ -40,7 +40,7 @@ int main(int argc, char **argv)
     nl = nw = nc = 0;
 
     if (argc < 2)
-            errf ("usage: wc FILE [FILE...]");
+            errf ("usage: wc FILE");
 
     FILE *fp = fopen(argv[1], "r");
 
