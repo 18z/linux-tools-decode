@@ -45,7 +45,7 @@ int main(int argc, char **argv)
     FILE *fp = fopen(argv[1], "r");
 
     if (!fp)
-        printf("cannot open file %s", argv[0]);
+        printf("cannot open file %s", argv[1]);
 
 
     while ((c = getc (fp)) != EOF) {
