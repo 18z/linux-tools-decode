@@ -18,15 +18,13 @@ function 必須定義回傳值型態(function 不一定要有回傳值，可填 
 function name 以及欲傳入 function 中
 中參數的型態與名稱。中參數的型態與名稱。
 
-在宣告 function 時，具體的 statements 不須撰寫。
-
 參數名稱對函式來說，是 local 的。也就是說，其他函式是無法看到這個名稱的。
 其他函式也可用同一變數名稱，並無衝突。
 
-同樣的，函式內變數也是 local 的，與 main function 中的 i 並不互相影響。
+同樣的，函式內變數也是 local 的，與 main function 中的變數並不互相影響。
 
-如果沒有設定回傳 statement (return;)，則他回傳的值將無意義，
-與完全沒寫 return 然後直接執行到 }一樣。
+如果沒有設定回傳 statement (return;)，則function回傳的值將無意義，
+與完全沒寫 return 然後直接執行到 __}__ 一樣。
 
 函式宣告後，若呼叫時用的方式或傳入的變數型態，
 與宣告定義的用法不同，就會跳錯誤訊息。
