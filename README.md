@@ -4,7 +4,7 @@
 
 * [準備作業](requirements.md)
     * [升級 GCC 版本](upgrade_gcc.md)
-    * [dokcer GCC](docker_gcc.md)
+    * [docker GCC](docker_gcc.md)
     * [C 語言標準](version_of_c.md)
     * [Glibc與標準不同之影響](effects_of_versions.md)
 * [第一個程式 - printf](wc/wc_printf.md)
