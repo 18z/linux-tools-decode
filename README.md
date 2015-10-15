@@ -31,3 +31,4 @@
 ### pwd - 印出當前工作目錄之工具
 
 * [第一個程式 - getcwd](pwd/pwd_getcwd.md)
+    * [getcwd 函式細講](pwd/pwd_getcwd_func.md)
