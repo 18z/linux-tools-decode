@@ -27,3 +27,7 @@
     * [函式細講](wc/wc_func_def.md)
 * [第六個程式 - usage & error msg](wc/wc_usage_error_msg.md)
     * [不定參數](wc/wc_Variadic_Functions.md)
+
+### pwd - 印出當前工作目錄之工具
+
+* [第一個程式 - getcwd](pwd/getcwd.md)
