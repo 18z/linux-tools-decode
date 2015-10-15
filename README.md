@@ -30,4 +30,4 @@
 
 ### pwd - 印出當前工作目錄之工具
 
-* [第一個程式 - getcwd](pwd/getcwd.md)
+* [第一個程式 - getcwd](pwd/pwd_getcwd.md)
