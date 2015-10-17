@@ -32,3 +32,5 @@
 
 * [第一個程式 - getcwd](pwd/pwd_getcwd.md)
     * [getcwd 函式細講](pwd/pwd_getcwd_func.md)
+* [第二個程式 - getenv](pwd/pwd_getenv.md)
+    * [getenv 函式細講及與 getcwd 差別](pwd/pwd_getenv_func.md)
