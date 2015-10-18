@@ -34,3 +34,6 @@
     * [getcwd 函式細講](pwd/pwd_getcwd_func.md)
 * [第二個程式 - getenv](pwd/pwd_getenv.md)
     * [getenv 函式細講及與 getcwd 差別](pwd/pwd_getenv_func.md)
+* [第三個程式 - stat](pwd/pwd_stat.md)
+    * [stat 函式細講](pwd/pwd_stat_func.md)
+    * [logical working directory 檢查機制](pwd/pwd_check.md)
