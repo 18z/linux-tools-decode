@@ -41,3 +41,5 @@
     * [getopt 函式細講](pwd/pwd_getopt_func.md)
 * [第五個程式 - err](pwd/pwd_err.md)
     * [err 函式細講](pwd/pwd_err_func.md)
+* [第六個程式 - errno.h](pwd/pwd_error_code.md)
+    * [error code macro](pwd/pwd_error_code_macro.md)
