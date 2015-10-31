@@ -39,3 +39,5 @@
     * [logical working directory 檢查機制](pwd/pwd_check.md)
 * [第四個程式 - getopt](pwd/pwd_getopt.md)
     * [getopt 函式細講](pwd/pwd_getopt_func.md)
+* [第五個程式 - err](pwd/pwd_err.md)
+    * [err 函式細講](pwd/pwd_err_func.md)
