@@ -43,3 +43,6 @@
     * [err 函式細講](pwd/pwd_err_func.md)
 * [第六個程式 - errno.h](pwd/pwd_error_code.md)
     * [error code macro](pwd/pwd_error_code_macro.md)
+* [第七個程式 - fprintf](pwd/pwd_stderr.md)
+    * [fprintf 概述](pwd/pwd_fprintf.md)
+    * [stdout 及 stderr 差異](pwd/pwd_stderr_stdout.md)
