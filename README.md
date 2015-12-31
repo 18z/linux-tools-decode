@@ -12,6 +12,7 @@
     * [註解](wc/wc_comment.md)
     * [程式起始點](wc/wc_main.md)
     * [變數宣告與列印](wc/wc_declare.md)
+    * [printf 函式略講](wc/wc_printf_func.md)
     * [程式終點](wc/wc_terminate.md)
 * [第二個程式 - getchar](wc/wc_getchar.md)
     * [define](wc/wc_define.md)
