@@ -15,6 +15,7 @@
     * [printf 函式略講](wc/wc_printf_func.md)
     * [程式終點](wc/wc_terminate.md)
 * [第二個程式 - getchar](wc/wc_getchar.md)
+    * [fgetc 函式略講](wc/wc_fgetc_func.md)
     * [define](wc/wc_define.md)
     * [while 迴圈](wc/wc_while.md)
     * [從鍵盤讀取字元](wc/wc_getchar_func.md)
