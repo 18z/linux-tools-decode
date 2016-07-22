@@ -1,4 +1,4 @@
-## Linux-tools 實作
+## Linux-tools 解析
 
 ### wc - 計算檔案字數、字元數、行數之工具
 
